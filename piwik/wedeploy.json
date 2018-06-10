@@ -1,5 +1,8 @@
 {
   "id": "piwik",
   "image": "piwik:3.2",
-  "dependencies": ["db"]
+  "dependencies": ["db"],
+  "healthCheck": {
+    "url": "localhost"
+  }
 }
